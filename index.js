@@ -57,14 +57,13 @@ function writeToFile(fileName, data) {
 
 const askQuestions = async (questions) => {
     const answers = await inquirer.prompt(questions).catch(err => err)
-    console.log(answers);
+    // console.log(answers);
     return answers;
 }
 
-
 const init = async () => {
    const userAnswers = await askQuestions(questions);
-   console.log(userAnswers);
+//    console.log(userAnswers);
    writeToFile("readme.md", userAnswers)
         }
 
