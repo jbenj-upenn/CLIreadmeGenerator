@@ -1,7 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require("fs");
+// const generateMarkdown = require("./utils/generateMarkdown")
 
-const generateMarkdown = require("./utils/generateMarkdown")
 const questions = [
 {
     type: "input",
@@ -38,16 +38,11 @@ const questions = [
     name:"contributors",
     message: "Who has contributed to your project?"
 },
-{
-    type: "input",
-    name:"contributors",
-    message: "Who has contributed to your project?"
-},
-{
-    type: "input",
-    name:"contributors",
-    message: "Who has contributed to your project?"
-},
+// {
+//     type: "input",
+//     name:"contributors",
+//     message: "Who has contributed to your project?"
+// },
 ];
 
 function writeToFile(fileName, data) {
@@ -62,13 +57,17 @@ function writeToFile(fileName, data) {
       });
 }
 
+const askQuestions = async (questions) => {
+    const answers = await inquirer.prompt(questions).catch(err => err)
+    console.log(answers);
+    return answers;
+}
 
 
-function init() {
-    inquirer.prompt(questions).then((answers)=>{
-        console.log(answers)
-        writeToFile("log.txt", answers)
-    })
+const init = async () => {
+   const userAnswers = await askQuestions(questions);
+   console.log(userAnswers);
+        
 
 }
 
