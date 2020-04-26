@@ -64,7 +64,7 @@ const askQuestions = async (questions) => {
 const init = async () => {
    const userAnswers = await askQuestions(questions);
 //    console.log(userAnswers);
-   writeToFile("readme.md", userAnswers)
+   writeToFile("readme1.md", userAnswers)
         }
 
 init();
