@@ -7,7 +7,6 @@ function generateMarkdown(data) {
 ${data.projectDescription}
 
 # Table of Contents
-<!--ts-->
    * [${data.projectName}](#${data.projectName})
    * [Table of contents](#table-of-contents)
    * [Installation](#installation)
@@ -15,7 +14,6 @@ ${data.projectDescription}
    * [Contributing](#contributing)
    * [Tests](#tests)
    * [Questions](#questions)
-<!--te-->
 
 # Installation
 
