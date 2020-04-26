@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require("fs");
-// const generateMarkdown = require("./utils/generateMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown")
 
 const questions = [
 {
@@ -15,11 +15,6 @@ const questions = [
 },
 {
     type: "input",
-    name:"tableOfContents",
-    message: "What is in your project?"
-},
-{
-    type: "input",
     name:"installation",
     message: "What dependencies are you using?"
 },
@@ -29,31 +24,34 @@ const questions = [
     message: "What will it be used for?"
 },
 {
-    type: "input",
+    type: "list",
     name:"license",
-    message: "What licensing does it use?"
+    message: "What licensing does it use?",
+    choices: ["Apache", "MIT", "ISC"]
 },
 {
     type: "input",
     name:"contributors",
     message: "Who has contributed to your project?"
 },
-// {
-//     type: "input",
-//     name:"contributors",
-//     message: "Who has contributed to your project?"
-// },
+{
+    type: "input",
+    name:"tests",
+    message: "What is the command to run the test?"
+},
+{
+    type: "input",
+    name: "questions",
+    message: "What's your github.com email?"
+},
 ];
 
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, generateMarkdown(data), function(err) {
-
         if (err) {
           return console.log(err);
         }
-      
         console.log("Success!");
-      
       });
 }
 
@@ -67,8 +65,7 @@ const askQuestions = async (questions) => {
 const init = async () => {
    const userAnswers = await askQuestions(questions);
    console.log(userAnswers);
-        
-
-}
+   writeToFile("readme.md", userAnswers)
+        }
 
 init();
