@@ -6,10 +6,28 @@ function generateMarkdown(data) {
 # Description
 ${data.projectDescription}
 
+# Description
+${data.installation}
+
+# Description
+${data.usage}
+
+# Description
+${data.license}
+
+# Description
+${data.contributors}
+
+# Description
+${data.tests}
+
+# Description
+${data.questions}
+
 # Table of Contents
 <!--ts-->
    * [${data.projectName}](#${data.projectName})
-   * [Table of contents](#table-of-contents)
+   * [Table of contents](#Stable-of-contents)
    * [Installation](#installation)
    * [Usage](#usage)
    * [Contributing](#contributing)
