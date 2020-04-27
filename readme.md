@@ -1,6 +1,4 @@
 
-(/assets/index.js)
-```A minute-long demo of the Generator in action.
 
 ![First](/assets/snip1.png)
 ![Second](/assets/snip2.png)
