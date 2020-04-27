@@ -51,7 +51,7 @@ function writeToFile(fileName, data) {
         if (err) {
           return console.log(err);
         }
-        console.log("Success!");
+        console.log("You're that DUDE!");
       });
 }
 
