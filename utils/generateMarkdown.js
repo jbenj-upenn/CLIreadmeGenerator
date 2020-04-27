@@ -6,22 +6,22 @@ function generateMarkdown(data) {
 # Description
 ${data.projectDescription}
 
-# Description
+# Installation
 ${data.installation}
 
-# Description
+# Usage
 ${data.usage}
 
-# Description
+# License
 ${data.license}
 
-# Description
+# Contributors
 ${data.contributors}
 
-# Description
+# Tests
 ${data.tests}
 
-# Description
+# Github Email?
 ${data.questions}
 
 # Table of Contents
