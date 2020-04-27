@@ -1,31 +1,31 @@
 
 # Project title
-# alkdjf
+# I See Your README
 
 # Description
-alkdfj
+The purpose of this application is create an easy-to-use, efficient, and quick generator that allows a user to create her/his README file with minimal effort. Enjoy your time here!
 
-# Description
-ajldsfl
+# Installation
+fs and inquirer
 
-# Description
-jalsdfj
+# Usage
+See the above
 
-# Description
+# License
 Apache
 
-# Description
-jaldsjf
+# Contributors
+Erik Donovan, Meguel Chavez, Tani, and Kevin Diesel
 
-# Description
-jfaldfj
+# Tests
+node index.js
 
-# Description
-jasdlfj
+# Github Email?
+jbenj_upenn
 
 # Table of Contents
 <!--ts-->
-   * [alkdjf](#alkdjf)
+   * [I See Your README](#I See Your README)
    * [Table of contents](#Stable-of-contents)
    * [Installation](#installation)
    * [Usage](#usage)
