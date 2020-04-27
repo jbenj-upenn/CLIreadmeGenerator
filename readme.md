@@ -6,6 +6,8 @@ CONTRIBUTE:
 
 I invite any and all coders to jump in here and steer me straight. At this point, however, my brain is no longer functioning and I'm leaving well-enough alone. 
 
+SCREENSHOTS are found below. For a GIF of the code working in VS Code's terminal, please click into the assets folder and have a look. 
+
 ![First](/assets/snip1.png)
 ![Second](/assets/snip2.png)
 ![Third](/assets/snip3.png)
