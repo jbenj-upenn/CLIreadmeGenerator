@@ -1,10 +1,10 @@
 
-![](/assets/index.js)
+(/assets/index.js)
 ```A minute-long demo of the Generator in action.
 
-![](/assets/snip1.png)
-![](/assets/snip2.png)
-![](/assets/snip3.png)
-![](/assets/gmsnip4.png)
-![](/assets/gmsnip5.png)
+![First](/assets/snip1.png)
+![Second](/assets/snip2.png)
+![Third](/assets/snip3.png)
+![Fourth](/assets/gmsnip4.png)
+![Fifth](/assets/gmsnip5.png)
 
