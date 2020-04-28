@@ -3,6 +3,16 @@ function generateMarkdown(data) {
 # Project title
 # ${data.projectName}
 
+# Table of Contents
+<!--ts-->
+   * [${data.projectName}](#${data.projectName})
+   * [Table of contents](#Stable-of-contents)
+   * [Installation](#installation)
+   * [Usage](#usage)
+   * [Contributing](#contributing)
+  
+<!--te-->
+
 # Description
 ${data.projectDescription}
 
@@ -20,16 +30,6 @@ ${data.contributors}
 
 # Github User Name?
 ${data.questions}
-
-# Table of Contents
-<!--ts-->
-   * [${data.projectName}](#${data.projectName})
-   * [Table of contents](#Stable-of-contents)
-   * [Installation](#installation)
-   * [Usage](#usage)
-   * [Contributing](#contributing)
-  
-<!--te-->
 
 # Installation
 
