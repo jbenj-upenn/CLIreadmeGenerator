@@ -13,7 +13,7 @@ ${data.installation}
 ${data.usage}
 
 # License
-${data.license}
+${getLicense(data.license)}
 
 # Contributors
 ${data.contributors}

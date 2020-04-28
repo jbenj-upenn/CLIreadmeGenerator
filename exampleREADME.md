@@ -1,28 +1,28 @@
 
 # Project title
-# f
+# This is a Command-Line Interface (CLI) README Generator
 
 # Description
-f
+I build this to help users create quick and efficient README documents by simply answering a series of questions.
 
 # Installation
-f
+Inquire, Dotenv
 
 # Usage
-f
+The project will be used by developers who may be in a rush and need a very fast template for making a README file. They can simply fill in their answers here, and just like that, a README is generated. 
 
 # License
-Apache
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Contributors
-f
+Erik Donovan, Meguel Chavez, Artan Muzhaqi, and Kevin Diesel.
 
 # Github User Name?
-f
+jbenj-upenn
 
 # Table of Contents
 <!--ts-->
-   * [f](#f)
+   * [This is a Command-Line Interface (CLI) README Generator](#This is a Command-Line Interface (CLI) README Generator)
    * [Table of contents](#Stable-of-contents)
    * [Installation](#installation)
    * [Usage](#usage)
@@ -35,7 +35,7 @@ f
 # Usage
 
 # License
-![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Contributing
 
