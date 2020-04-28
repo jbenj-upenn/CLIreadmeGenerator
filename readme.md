@@ -8,6 +8,9 @@ I invite any and all coders to jump in here and steer me straight. At this point
 
 SCREENSHOTS are found below. For a GIF of the code working in VS Code's terminal, please click into the assets folder and have a look. 
 
+![ezgif com-optimize (1)](https://user-images.githubusercontent.com/59940368/80516052-e7594e00-8950-11ea-8112-2c2ca3ef29fc.gif)
+
+
 ![First](/assets/snip1.png)
 ![Second](/assets/snip2.png)
 ![Third](/assets/snip3.png)
