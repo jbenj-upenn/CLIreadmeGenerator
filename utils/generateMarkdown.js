@@ -18,10 +18,7 @@ ${data.license}
 # Contributors
 ${data.contributors}
 
-# Tests
-${data.tests}
-
-# Github Email?
+# Github User Name?
 ${data.questions}
 
 # Table of Contents
@@ -31,8 +28,7 @@ ${data.questions}
    * [Installation](#installation)
    * [Usage](#usage)
    * [Contributing](#contributing)
-   * [Tests](#tests)
-   * [Questions](#questions)
+  
 <!--te-->
 
 # Installation
@@ -43,10 +39,6 @@ ${data.questions}
 ${getLicense(data.license)}
 
 # Contributing
-
-# Tests
-
-# Questions
 
 `;
 }

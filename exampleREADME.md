@@ -1,37 +1,33 @@
 
 # Project title
-# Command Line Interface (CLI) README Generator
+# f
 
 # Description
-The purpose of this app is to develop an easy-to-use README generator for other developers. Various questions prompt the user, using her/his feedback in the actual README. These are formatted with a variety of features and styling, making the process a bit simpler and taking away the need to format everything her/himself. 
+f
 
 # Installation
-Inquirer and Dotenv were used in the creation of this generator. 
+f
 
 # Usage
-To allow users to create fast, efficient README pages for their projects.	
+f
 
 # License
-MIT
+Apache
 
 # Contributors
-Erik Donovan, Meguel Chavez, Artan Muzhaqi, and Kevin Diesel all contributed to the completion of this project.
+f
 
-# Tests
-n/a
-
-# Github Email?
-jbenj-upenn (user name; github email n/a)
+# Github User Name?
+f
 
 # Table of Contents
 <!--ts-->
-   * [Command Line Interface (CLI) README Generator](#Command Line Interface (CLI) README Generator)
+   * [f](#f)
    * [Table of contents](#Stable-of-contents)
    * [Installation](#installation)
    * [Usage](#usage)
    * [Contributing](#contributing)
-   * [Tests](#tests)
-   * [Questions](#questions)
+  
 <!--te-->
 
 # Installation
@@ -39,11 +35,7 @@ jbenj-upenn (user name; github email n/a)
 # Usage
 
 # License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Contributing
-
-# Tests
-
-# Questions
 

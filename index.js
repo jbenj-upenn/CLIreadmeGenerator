@@ -34,15 +34,11 @@ const questions = [
     name:"contributors",
     message: "Who has contributed to your project?"
 },
-{
-    type: "input",
-    name:"tests",
-    message: "What is the command to run the test?"
-},
+// 
 {
     type: "input",
     name: "questions",
-    message: "What's your github.com email?"
+    message: "What's your github.com User Name?"
 },
 ];
 
